@@ -65,20 +65,20 @@
     <line x1="110" y1="133" x2="770" y2="133" stroke="#0d0820" stroke-width="1"/>
 
     <!-- Java -->
-    <rect x="30" y="146" width="80" height="28" rx="6" fill="#1e0510" stroke="#FF2D78" stroke-width="0.8" stroke-opacity="0.6"/>
-    <text x="70" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#FF2D78">Java</text>
+    <rect x="30" y="146" width="80" height="28" rx="6" fill="#1e1a00" stroke="#ffd93d" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="70" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#ffd93d">Java</text>
 
     <!-- Spring Boot -->
-    <rect x="120" y="146" width="120" height="28" rx="6" fill="#001e0a" stroke="#FF2D78" stroke-width="0.8" stroke-opacity="0.5"/>
-    <text x="180" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#FF2D78">Spring Boot</text>
+    <rect x="120" y="146" width="120" height="28" rx="6" fill="#001525" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="180" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#00f5ff">Spring Boot</text>
 
     <!-- PHP -->
     <rect x="250" y="146" width="70" height="28" rx="6" fill="#100820" stroke="#b44fff" stroke-width="0.8" stroke-opacity="0.6"/>
     <text x="285" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#b44fff">PHP</text>
 
     <!-- REST API -->
-    <rect x="330" y="146" width="95" height="28" rx="6" fill="#001e2e" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.4"/>
-    <text x="377" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#6e6a9a">REST API</text>
+    <rect x="330" y="146" width="95" height="28" rx="6" fill="#1e0510" stroke="#FF2D78" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="377" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#FF2D78">REST API</text>
 
     <!-- DATABASE row label -->
     <text x="30" y="208" font-family="'Courier New', monospace" font-size="10" fill="#4a4470" letter-spacing="3">DATABASE</text>
@@ -89,12 +89,12 @@
     <text x="70" y="235" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#b44fff">MySQL</text>
 
     <!-- PostgreSQL -->
-    <rect x="120" y="216" width="110" height="28" rx="6" fill="#100820" stroke="#b44fff" stroke-width="0.8" stroke-opacity="0.6"/>
-    <text x="175" y="235" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#b44fff">PostgreSQL</text>
+    <rect x="120" y="216" width="110" height="28" rx="6" fill="#1e1a00" stroke="#ffd93d" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="175" y="235" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#ffd93d">PostgreSQL</text>
 
     <!-- SQL Server -->
-    <rect x="240" y="216" width="105" height="28" rx="6" fill="#100820" stroke="#b44fff" stroke-width="0.8" stroke-opacity="0.4"/>
-    <text x="292" y="235" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#6e6a9a">SQL Server</text>
+    <rect x="240" y="216" width="105" height="28" rx="6" fill="#001525" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="292" y="235" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#00f5ff">SQL Server</text>
 
     <!-- DEVOPS row label -->
     <text x="30" y="278" font-family="'Courier New', monospace" font-size="10" fill="#4a4470" letter-spacing="3">DEVOPS &amp; TOOLS</text>
@@ -109,12 +109,12 @@
     <text x="175" y="305" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#00f5ff">GitHub Actions</text>
 
     <!-- Jira -->
-    <rect x="260" y="286" width="65" height="28" rx="6" fill="#001e2e" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.4"/>
-    <text x="292" y="305" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#6e6a9a">Jira</text>
+    <rect x="260" y="286" width="65" height="28" rx="6" fill="#100820" stroke="#b44fff" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="292" y="305" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#b44fff">Jira</text>
 
     <!-- Scrum -->
-    <rect x="335" y="286" width="75" height="28" rx="6" fill="#001e2e" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.4"/>
-    <text x="372" y="305" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#6e6a9a">Scrum</text>
+    <rect x="335" y="286" width="75" height="28" rx="6" fill="#1e1a00" stroke="#ffd93d" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="372" y="305" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#ffd93d">Scrum</text>
 
   </g>
 
