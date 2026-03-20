@@ -31,7 +31,7 @@
 
     <!-- Section label -->
     <text x="30" y="36" font-family="'Courier New', monospace" font-size="11" fill="#FF2D78" letter-spacing="3" opacity="0.9">// WHOAMI</text>
-    <line x1="110" y1="31" x2="770" y2="31" stroke="#1a1030" stroke-width="1"/>
+    <line x1="15" y1="51" x2="780" y2="51" stroke="#1a1030" stroke-width="1"/>
 
     <!-- LEFT COLUMN: Identity -->
     <!-- name -->
