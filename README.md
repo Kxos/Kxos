@@ -53,31 +53,11 @@
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=Kxos&show_icons=true&hide_border=true&bg_color=04020e&title_color=ff2d78&icon_color=00f5ff&text_color=9b93c8&ring_color=b44fff&include_all_commits=true&count_private=true&cache_seconds=1800" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kxos&layout=compact&hide_border=true&bg_color=04020e&title_color=ff2d78&text_color=9b93c8&langs_count=6&cache_seconds=1800" />
 
-<br/><br/>
+<br/>
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=Kxos&hide_border=true&background=04020e&ring=ff2d78&fire=b44fff&currStreakLabel=00f5ff&sideLabels=9b93c8&dates=4a4470&stroke=160f30&currStreakNum=f0ecff&sideNums=f0ecff)](https://git.io/streak-stats)
 
 </div>
-
-<br/>
-
-<div align="center">
-<img src="./assets/label-contribution-snake.svg" width="100%" alt="contribution snake"/>
-</div>
-
-<br/>
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Kxos/Kxos/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Kxos/Kxos/output/github-contribution-grid-snake.svg"/>
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/Kxos/Kxos/output/github-contribution-grid-snake-dark.svg"/>
-</picture>
-</div>
-
-<br/>
 
 <div align="center">
 <img src="./assets/header.svg" width="100%" alt="footer" style="transform:scaleY(-1);opacity:0.4"/>
