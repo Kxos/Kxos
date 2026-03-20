@@ -60,7 +60,7 @@
   </g>
 
   <!-- Main title -->
-  <text x="400" y="58" text-anchor="middle" font-family="'Courier New', monospace" font-size="42" font-weight="bold" fill="url(#textGrad)" filter="url(#glow)" letter-spacing="12">KXOS</text>
+  <text x="400" y="58" text-anchor="middle" font-family="'Courier New', monospace" font-size="42" font-weight="bold" fill="url(#textGrad)" filter="url(#glow)" letter-spacing="12">VITO IANNONE</text>
 
   <!-- Subtitle -->
   <text x="400" y="88" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#8b949e" letter-spacing="4">Frontend · Fullstack · UI/UX</text>

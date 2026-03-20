@@ -1,17 +1,16 @@
 <!-- ═══════════════════════════════════════════════════════════════
      KXOS — GitHub Profile README  ·  repo: Kxos/Kxos
      Palette: #04020e bg · #ff2d78 pink · #00f5ff cyan · #b44fff violet
-     Font feel: Orbitron + Share Tech Mono
 ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- HEADER SVG — synthwave sun + scanlines + titolo animato -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:04020e,50:ff2d7822,100:04020e&height=180&section=header&text=KXOS&fontSize=72&fontFamily=Orbitron&fontColor=ff2d78&fontAlignY=55&animation=fadeIn&stroke=ff2d78&strokeWidth=1&desc=Vito%20Iannone&descSize=16&descAlignY=80&descFontFamily=Share+Tech+Mono&descFontColor=00f5ff" width="100%" />
+<!-- HEADER SVG — hostato nel repo stesso -->
+<img src="./header.svg" width="100%" alt="KXOS header" />
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&duration=2800&pause=1200&color=00F5FF&center=true&vCenter=true&width=580&lines=FE+Team+Lead+%40+DXC+Technology;React+·+Next.js+·+TypeScript+·+Spring+Boot;Costruisco+sistemi+scalabili+%26+UI+ad+alto+impatto.;%2F%2F+dal+backend+al+pixel+finale.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&duration=2800&pause=1200&color=00F5FF&center=true&vCenter=true&width=580&lines=FE+Team+Leader;React+~+Next.js+~+TypeScript+~+Spring+Boot;Costruisco+sistemi+scalabili+%26+UI+ad+alto+impatto.;%2F%2F+dal+backend+al+pixel+finale.)](https://git.io/typing-svg)
 
 <br/>
 
@@ -96,8 +95,8 @@ const kxos = {
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Kxos&show_icons=true&hide_border=true&bg_color=04020e&title_color=ff2d78&icon_color=00f5ff&text_color=9b93c8&ring_color=b44fff&include_all_commits=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kxos&layout=compact&hide_border=true&bg_color=04020e&title_color=ff2d78&text_color=9b93c8&langs_count=6" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Kxos&show_icons=true&hide_border=true&bg_color=04020e&title_color=ff2d78&icon_color=00f5ff&text_color=9b93c8&ring_color=b44fff&include_all_commits=true&count_private=true&cache_seconds=1800" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kxos&layout=compact&hide_border=true&bg_color=04020e&title_color=ff2d78&text_color=9b93c8&langs_count=6&cache_seconds=1800" />
 
 <br/><br/>
 
@@ -133,7 +132,7 @@ const kxos = {
 
 <div align="center">
 
-[![kxos.github.io](https://github-readme-stats.vercel.app/api/pin/?username=Kxos&repo=kxos.github.io&hide_border=true&bg_color=04020e&title_color=ff2d78&icon_color=00f5ff&text_color=9b93c8&border_color=160f30)](https://github.com/Kxos/kxos.github.io)
+[![kxos.github.io](https://github-readme-stats.vercel.app/api/pin/?username=Kxos&repo=kxos.github.io&hide_border=true&bg_color=04020e&title_color=ff2d78&icon_color=00f5ff&text_color=9b93c8&border_color=160f30&cache_seconds=1800)](https://github.com/Kxos/kxos.github.io)
 
 </div>
 
