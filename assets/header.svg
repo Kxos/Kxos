@@ -1,0 +1,113 @@
+<svg width="800" height="130" viewBox="0 0 800 130" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#04020e"/>
+      <stop offset="50%" stop-color="#0d0820"/>
+      <stop offset="100%" stop-color="#04020e"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2D78"/>
+      <stop offset="50%" stop-color="#ff6eb4"/>
+      <stop offset="100%" stop-color="#00f5ff"/>
+    </linearGradient>
+    <linearGradient id="lineLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2D78" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FF2D78" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="lineRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#00f5ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowSoft">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="rounded">
+      <rect width="800" height="130" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="130" fill="url(#bg)" rx="12"/>
+
+  <!-- All inner content clipped to rounded rect -->
+  <g clip-path="url(#rounded)">
+
+    <!-- Scanline sweep animation -->
+    <rect x="0" y="0" width="800" height="3" fill="#FF2D78" opacity="0.04">
+      <animateTransform attributeName="transform" type="translate" from="0,-3" to="0,133" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Top edge line: left half pink, right half cyan -->
+    <line x1="12" y1="1" x2="400" y2="1" stroke="url(#lineLeft)" stroke-width="1"/>
+    <line x1="400" y1="1" x2="788" y2="1" stroke="url(#lineRight)" stroke-width="1"/>
+
+    <!-- Bottom edge line -->
+    <line x1="12" y1="129" x2="400" y2="129" stroke="url(#lineLeft)" stroke-width="1"/>
+    <line x1="400" y1="129" x2="788" y2="129" stroke="url(#lineRight)" stroke-width="1"/>
+
+    <!-- TOP-LEFT corner bracket (safe inside rx=12, starts at ~14,14) -->
+    <polyline points="14,30 14,14 30,14" fill="none" stroke="#FF2D78" stroke-width="1.5" opacity="0.9" filter="url(#glowSoft)"/>
+
+    <!-- TOP-RIGHT corner bracket -->
+    <polyline points="770,14 786,14 786,30" fill="none" stroke="#00f5ff" stroke-width="1.5" opacity="0.9" filter="url(#glowSoft)"/>
+
+    <!-- BOTTOM-LEFT corner bracket -->
+    <polyline points="14,100 14,116 30,116" fill="none" stroke="#00f5ff" stroke-width="1.5" opacity="0.9" filter="url(#glowSoft)"/>
+
+    <!-- BOTTOM-RIGHT corner bracket -->
+    <polyline points="770,116 786,116 786,100" fill="none" stroke="#FF2D78" stroke-width="1.5" opacity="0.9" filter="url(#glowSoft)"/>
+
+    <!-- Dot grid left -->
+    <g opacity="0.18">
+      <circle cx="46" cy="42" r="1.5" fill="#FF2D78"/>
+      <circle cx="61" cy="42" r="1.5" fill="#FF2D78"/>
+      <circle cx="76" cy="42" r="1.5" fill="#FF2D78"/>
+      <circle cx="46" cy="57" r="1.5" fill="#FF2D78"/>
+      <circle cx="61" cy="57" r="1.5" fill="#FF2D78"/>
+      <circle cx="76" cy="57" r="1.5" fill="#FF2D78"/>
+      <circle cx="46" cy="72" r="1.5" fill="#FF2D78"/>
+      <circle cx="61" cy="72" r="1.5" fill="#FF2D78"/>
+      <circle cx="76" cy="72" r="1.5" fill="#FF2D78"/>
+      <circle cx="46" cy="87" r="1.5" fill="#FF2D78"/>
+      <circle cx="61" cy="87" r="1.5" fill="#FF2D78"/>
+      <circle cx="76" cy="87" r="1.5" fill="#FF2D78"/>
+    </g>
+
+    <!-- Dot grid right -->
+    <g opacity="0.18">
+      <circle cx="724" cy="42" r="1.5" fill="#00f5ff"/>
+      <circle cx="739" cy="42" r="1.5" fill="#00f5ff"/>
+      <circle cx="754" cy="42" r="1.5" fill="#00f5ff"/>
+      <circle cx="724" cy="57" r="1.5" fill="#00f5ff"/>
+      <circle cx="739" cy="57" r="1.5" fill="#00f5ff"/>
+      <circle cx="754" cy="57" r="1.5" fill="#00f5ff"/>
+      <circle cx="724" cy="72" r="1.5" fill="#00f5ff"/>
+      <circle cx="739" cy="72" r="1.5" fill="#00f5ff"/>
+      <circle cx="754" cy="72" r="1.5" fill="#00f5ff"/>
+      <circle cx="724" cy="87" r="1.5" fill="#00f5ff"/>
+      <circle cx="739" cy="87" r="1.5" fill="#00f5ff"/>
+      <circle cx="754" cy="87" r="1.5" fill="#00f5ff"/>
+    </g>
+
+    <!-- Main title -->
+    <text x="400" y="62" text-anchor="middle" font-family="'Courier New', monospace" font-size="40" font-weight="bold" fill="url(#textGrad)" filter="url(#glow)" letter-spacing="10">VITO IANNONE</text>
+
+    <!-- Subtitle -->
+    <text x="400" y="92" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#6e6a9a" letter-spacing="5">FE TEAM LEAD  ·  FULLSTACK  ·  UI/UX</text>
+
+    <!-- Blinking cursor -->
+    <rect x="572" y="78" width="9" height="2" fill="#FF2D78">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+  </g>
+
+  <!-- Outer border on top of everything -->
+  <rect width="800" height="130" fill="none" stroke="#1a1030" stroke-width="1" rx="12"/>
+
+</svg>

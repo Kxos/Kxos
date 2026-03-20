@@ -1,16 +1,12 @@
-<!-- ═══════════════════════════════════════════════════════════════
-     KXOS — GitHub Profile README  ·  repo: Kxos/Kxos
-     Palette: #04020e bg · #ff2d78 pink · #00f5ff cyan · #b44fff violet
-═══════════════════════════════════════════════════════════════ -->
+<!-- KXOS — GitHub Profile README · repo: Kxos/Kxos -->
 
 <div align="center">
 
-<!-- HEADER SVG — hostato nel repo stesso -->
-<img src="./header.svg" width="100%" alt="KXOS header" />
+<img src="./assets/header.svg" width="100%" alt="KXOS"/>
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&duration=2800&pause=1200&color=00F5FF&center=true&vCenter=true&width=580&lines=FE+Team+Leader;React+~+Next.js+~+TypeScript+~+Spring+Boot;Costruisco+sistemi+scalabili+%26+UI+ad+alto+impatto.;%2F%2F+dal+backend+al+pixel+finale.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&duration=2800&pause=1200&color=00F5FF&center=true&vCenter=true&width=580&lines=FE+Team+Lead+%40+DXC+Technology;React+~+Next.js+~+TypeScript+~+Spring+Boot;Costruisco+sistemi+scalabili+%26+UI+ad+alto+impatto.;%2F%2F+dal+backend+al+pixel+finale.)](https://git.io/typing-svg)
 
 <br/>
 
@@ -22,74 +18,21 @@
 
 <br/>
 
----
-
-<div align="center"><sub><code>// whoami</code></sub></div>
-
-<br/>
-
-```ts
-const kxos = {
-  name:      "Vito Iannone",
-  alias:     "Kxos",
-  location:  "Bari, Italia 🇮🇹",
-
-  role:      "FE Team Lead & Full Stack Dev @ DXC Technology",
-  since:     "Giu 2022 — Presente",
-
-  stack:     {
-    frontend:  ["React", "Next.js", "TypeScript", "JavaScript ES6+", "HTML5", "CSS3"],
-    backend:   ["Java", "Spring Boot", "REST API", "Microservizi", "PHP"],
-    database:  ["MySQL", "SQL Server", "PostgreSQL"],
-    tools:     ["GitHub", "GitLab", "Jira", "Scrum", "DevOps", "Code Review"],
-  },
-
-  focus:     ["Scalable Systems", "High-Impact UI", "Team Leadership"],
-  currently: "Building kxos.github.io — synthwave portfolio con arcade integrato",
-  motto:     "// dal backend al pixel finale.",
-};
-```
-
-<br/>
-
----
-
-<div align="center"><sub><code>// stack</code></sub></div>
-
-<br/>
-
 <div align="center">
-
-**`[ FRONTEND ]`**
-
-![React](https://img.shields.io/badge/React-00f5ff?style=for-the-badge&logo=react&logoColor=04020e)
-![Next.js](https://img.shields.io/badge/Next.js-f0ecff?style=for-the-badge&logo=nextdotjs&logoColor=04020e)
-![TypeScript](https://img.shields.io/badge/TypeScript-00f5ff?style=for-the-badge&logo=typescript&logoColor=04020e)
-![JavaScript](https://img.shields.io/badge/JavaScript-ffd93d?style=for-the-badge&logo=javascript&logoColor=04020e)
-![HTML5](https://img.shields.io/badge/HTML5-ff2d78?style=for-the-badge&logo=html5&logoColor=04020e)
-![CSS3](https://img.shields.io/badge/CSS3-b44fff?style=for-the-badge&logo=css3&logoColor=04020e)
-
-**`[ BACKEND ]`**
-
-![Java](https://img.shields.io/badge/Java-ff2d78?style=for-the-badge&logo=openjdk&logoColor=04020e)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-ff2d78?style=for-the-badge&logo=springboot&logoColor=04020e)
-![PHP](https://img.shields.io/badge/PHP-b44fff?style=for-the-badge&logo=php&logoColor=04020e)
-
-**`[ DATABASE & DEVOPS ]`**
-
-![MySQL](https://img.shields.io/badge/MySQL-b44fff?style=for-the-badge&logo=mysql&logoColor=04020e)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-b44fff?style=for-the-badge&logo=postgresql&logoColor=04020e)
-![Git](https://img.shields.io/badge/Git-ff2d78?style=for-the-badge&logo=git&logoColor=04020e)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-00f5ff?style=for-the-badge&logo=githubactions&logoColor=04020e)
-![Jira](https://img.shields.io/badge/Jira-00f5ff?style=for-the-badge&logo=jira&logoColor=04020e)
-
+<img src="./assets/whoami.svg" width="100%" alt="whoami"/>
 </div>
 
 <br/>
 
----
+<div align="center">
+<img src="./assets/stack.svg" width="100%" alt="stack"/>
+</div>
 
-<div align="center"><sub><code>// stats</code></sub></div>
+<br/>
+
+<div align="center">
+<img src="./assets/label-stats.svg" width="100%" alt="stats"/>
+</div>
 
 <br/>
 
@@ -106,27 +49,27 @@ const kxos = {
 
 <br/>
 
----
-
-<div align="center"><sub><code>// contribution snake</code></sub></div>
+<div align="center">
+<img src="./assets/label-contribution-snake.svg" width="100%" alt="contribution snake"/>
+</div>
 
 <br/>
 
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Kxos/Kxos/output/github-contribution-grid-snake-dark.svg" />
+    srcset="https://raw.githubusercontent.com/Kxos/Kxos/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Kxos/Kxos/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/Kxos/Kxos/output/github-contribution-grid-snake-dark.svg" />
+    srcset="https://raw.githubusercontent.com/Kxos/Kxos/output/github-contribution-grid-snake.svg"/>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Kxos/Kxos/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
 </div>
 
 <br/>
 
----
-
-<div align="center"><sub><code>// pinned</code></sub></div>
+<div align="center">
+<img src="./assets/label-pinned.svg" width="100%" alt="pinned"/>
+</div>
 
 <br/>
 
@@ -138,12 +81,14 @@ const kxos = {
 
 <br/>
 
----
-
 <div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Kxos&style=for-the-badge&color=ff2d78&labelColor=04020e&label=PROFILE+VIEWS)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:04020e,50:b44fff22,100:04020e&height=100&section=footer&reversal=false" width="100%" />
+</div>
 
+<br/>
+
+<div align="center">
+<img src="./assets/header.svg" width="100%" alt="footer" style="transform:scaleY(-1);opacity:0.4"/>
 </div>

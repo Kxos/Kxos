@@ -1,0 +1,17 @@
+<svg width="800" height="44" viewBox="0 0 800 44" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2D78" stop-opacity="0.8"/>
+      <stop offset="30%" stop-color="#b44fff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#b44fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b44fff" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#b44fff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00f5ff" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="22" x2="300" y2="22" stroke="url(#fade)" stroke-width="1"/>
+  <text x="400" y="27" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#4a4470" letter-spacing="4">// CONTRIBUTION SNAKE</text>
+  <line x1="500" y1="22" x2="800" y2="22" stroke="url(#fadeR)" stroke-width="1"/>
+</svg>

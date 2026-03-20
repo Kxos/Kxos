@@ -1,0 +1,122 @@
+<svg width="800" height="330" viewBox="0 0 800 330" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04020e"/>
+      <stop offset="100%" stop-color="#0d0820"/>
+    </linearGradient>
+    <linearGradient id="accentL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="100%" stop-color="#b44fff"/>
+    </linearGradient>
+    <linearGradient id="accentR" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b44fff"/>
+      <stop offset="100%" stop-color="#FF2D78"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="card">
+      <rect width="800" height="330" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <rect width="800" height="330" fill="url(#bg)" rx="12"/>
+
+  <g clip-path="url(#card)">
+    <rect x="0" y="0" width="3" height="330" fill="url(#accentL)"/>
+    <rect x="797" y="0" width="3" height="330" fill="url(#accentR)"/>
+
+    <!-- Section label -->
+    <text x="30" y="36" font-family="'Courier New', monospace" font-size="11" fill="#00f5ff" letter-spacing="3" opacity="0.9">// STACK</text>
+    <line x1="95" y1="31" x2="770" y2="31" stroke="#1a1030" stroke-width="1"/>
+
+    <!-- FRONTEND row label -->
+    <text x="30" y="68" font-family="'Courier New', monospace" font-size="10" fill="#4a4470" letter-spacing="3">FRONTEND</text>
+    <line x1="105" y1="63" x2="770" y2="63" stroke="#0d0820" stroke-width="1"/>
+
+    <!-- Frontend pills -->
+    <!-- React -->
+    <rect x="30" y="76" width="90" height="28" rx="6" fill="#001e2e" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="75" y="95" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#00f5ff">React</text>
+
+    <!-- Next.js -->
+    <rect x="130" y="76" width="90" height="28" rx="6" fill="#0d0d1a" stroke="#f0ecff" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="175" y="95" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#f0ecff">Next.js</text>
+
+    <!-- TypeScript -->
+    <rect x="230" y="76" width="110" height="28" rx="6" fill="#001525" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="285" y="95" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#00f5ff">TypeScript</text>
+
+    <!-- JavaScript -->
+    <rect x="350" y="76" width="110" height="28" rx="6" fill="#1e1a00" stroke="#ffd93d" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="405" y="95" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#ffd93d">JavaScript</text>
+
+    <!-- HTML5 -->
+    <rect x="470" y="76" width="80" height="28" rx="6" fill="#1e0510" stroke="#FF2D78" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="510" y="95" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#FF2D78">HTML5</text>
+
+    <!-- CSS3 -->
+    <rect x="560" y="76" width="70" height="28" rx="6" fill="#100820" stroke="#b44fff" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="595" y="95" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#b44fff">CSS3</text>
+
+    <!-- BACKEND row label -->
+    <text x="30" y="138" font-family="'Courier New', monospace" font-size="10" fill="#4a4470" letter-spacing="3">BACKEND</text>
+    <line x1="110" y1="133" x2="770" y2="133" stroke="#0d0820" stroke-width="1"/>
+
+    <!-- Java -->
+    <rect x="30" y="146" width="80" height="28" rx="6" fill="#1e0510" stroke="#FF2D78" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="70" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#FF2D78">Java</text>
+
+    <!-- Spring Boot -->
+    <rect x="120" y="146" width="120" height="28" rx="6" fill="#001e0a" stroke="#FF2D78" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="180" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#FF2D78">Spring Boot</text>
+
+    <!-- PHP -->
+    <rect x="250" y="146" width="70" height="28" rx="6" fill="#100820" stroke="#b44fff" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="285" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#b44fff">PHP</text>
+
+    <!-- REST API -->
+    <rect x="330" y="146" width="95" height="28" rx="6" fill="#001e2e" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="377" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#6e6a9a">REST API</text>
+
+    <!-- DATABASE row label -->
+    <text x="30" y="208" font-family="'Courier New', monospace" font-size="10" fill="#4a4470" letter-spacing="3">DATABASE</text>
+    <line x1="115" y1="203" x2="770" y2="203" stroke="#0d0820" stroke-width="1"/>
+
+    <!-- MySQL -->
+    <rect x="30" y="216" width="80" height="28" rx="6" fill="#100820" stroke="#b44fff" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="70" y="235" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#b44fff">MySQL</text>
+
+    <!-- PostgreSQL -->
+    <rect x="120" y="216" width="110" height="28" rx="6" fill="#100820" stroke="#b44fff" stroke-width="0.8" stroke-opacity="0.6"/>
+    <text x="175" y="235" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#b44fff">PostgreSQL</text>
+
+    <!-- SQL Server -->
+    <rect x="240" y="216" width="105" height="28" rx="6" fill="#100820" stroke="#b44fff" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="292" y="235" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#6e6a9a">SQL Server</text>
+
+    <!-- DEVOPS row label -->
+    <text x="30" y="278" font-family="'Courier New', monospace" font-size="10" fill="#4a4470" letter-spacing="3">DEVOPS &amp; TOOLS</text>
+    <line x1="170" y1="273" x2="770" y2="273" stroke="#0d0820" stroke-width="1"/>
+
+    <!-- Git -->
+    <rect x="30" y="286" width="60" height="28" rx="6" fill="#1e0510" stroke="#FF2D78" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="60" y="305" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#FF2D78">Git</text>
+
+    <!-- GitHub Actions -->
+    <rect x="100" y="286" width="150" height="28" rx="6" fill="#001e2e" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="175" y="305" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#00f5ff">GitHub Actions</text>
+
+    <!-- Jira -->
+    <rect x="260" y="286" width="65" height="28" rx="6" fill="#001e2e" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="292" y="305" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#6e6a9a">Jira</text>
+
+    <!-- Scrum -->
+    <rect x="335" y="286" width="75" height="28" rx="6" fill="#001e2e" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="372" y="305" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#6e6a9a">Scrum</text>
+
+  </g>
+
+  <rect width="800" height="330" fill="none" stroke="#1a1030" stroke-width="1" rx="12"/>
+</svg>
