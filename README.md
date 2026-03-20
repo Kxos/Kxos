@@ -60,5 +60,5 @@
 </div>
 
 <div align="center">
-<img src="./assets/header.svg" width="100%" alt="footer" style="transform:scaleY(-1);opacity:0.4"/>
+<img src="./assets/footer.svg" width="100%" alt="footer"/>
 </div>
