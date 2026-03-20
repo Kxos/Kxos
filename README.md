@@ -13,6 +13,18 @@
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-kxos.github.io-ff2d78?style=for-the-badge&logo=safari&logoColor=ff2d78&labelColor=04020e)](https://kxos.github.io)&nbsp;
 [![GitHub](https://img.shields.io/badge/GITHUB-Kxos-00f5ff?style=for-the-badge&logo=github&logoColor=00f5ff&labelColor=04020e)](https://github.com/Kxos)&nbsp;
 [![Location](https://img.shields.io/badge/BARI-ITALIA-b44fff?style=for-the-badge&logo=googlemaps&logoColor=b44fff&labelColor=04020e)](https://kxos.github.io)
+<br/>
+![Profile Views](https://komarev.com/ghpvc/?username=Kxos&style=for-the-badge&color=ff2d78&labelColor=04020e&label=PROFILE+VIEWS)
+
+</div>
+
+<div align="center">
+<img src="./assets/label-pinned.svg" width="100%" alt="pinned"/>
+</div>
+
+<div align="center">
+
+[![kxos.github.io](https://github-readme-stats.vercel.app/api/pin/?username=Kxos&repo=kxos.github.io&hide_border=true&bg_color=04020e&title_color=ff2d78&icon_color=00f5ff&text_color=9b93c8&border_color=160f30&cache_seconds=1800)](https://github.com/Kxos/kxos.github.io)
 
 </div>
 
@@ -63,28 +75,6 @@
     srcset="https://raw.githubusercontent.com/Kxos/Kxos/output/github-contribution-grid-snake.svg"/>
   <img alt="contribution snake" src="https://raw.githubusercontent.com/Kxos/Kxos/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
-</div>
-
-<br/>
-
-<div align="center">
-<img src="./assets/label-pinned.svg" width="100%" alt="pinned"/>
-</div>
-
-<br/>
-
-<div align="center">
-
-[![kxos.github.io](https://github-readme-stats.vercel.app/api/pin/?username=Kxos&repo=kxos.github.io&hide_border=true&bg_color=04020e&title_color=ff2d78&icon_color=00f5ff&text_color=9b93c8&border_color=160f30&cache_seconds=1800)](https://github.com/Kxos/kxos.github.io)
-
-</div>
-
-<br/>
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=Kxos&style=for-the-badge&color=ff2d78&labelColor=04020e&label=PROFILE+VIEWS)
-
 </div>
 
 <br/>
