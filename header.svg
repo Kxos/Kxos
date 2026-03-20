@@ -1,0 +1,77 @@
+<svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="50%" style="stop-color:#161b22"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF2D78"/>
+      <stop offset="50%" style="stop-color:#ff6eb4"/>
+      <stop offset="100%" style="stop-color:#58a6ff"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="120" fill="url(#bg)" rx="12"/>
+
+  <!-- Decorative lines -->
+  <line x1="0" y1="1" x2="800" y2="1" stroke="#FF2D78" stroke-width="1" opacity="0.6"/>
+  <line x1="0" y1="119" x2="800" y2="119" stroke="#58a6ff" stroke-width="1" opacity="0.6"/>
+
+  <!-- Animated corner accents -->
+  <rect x="4" y="4" width="16" height="2" fill="#FF2D78" opacity="0.8"/>
+  <rect x="4" y="4" width="2" height="16" fill="#FF2D78" opacity="0.8"/>
+  <rect x="780" y="4" width="16" height="2" fill="#58a6ff" opacity="0.8"/>
+  <rect x="794" y="4" width="2" height="16" fill="#58a6ff" opacity="0.8"/>
+  <rect x="4" y="114" width="16" height="2" fill="#58a6ff" opacity="0.8"/>
+  <rect x="4" y="100" width="2" height="20" fill="#58a6ff" opacity="0.8"/>
+  <rect x="780" y="114" width="16" height="2" fill="#FF2D78" opacity="0.8"/>
+  <rect x="794" y="100" width="2" height="20" fill="#FF2D78" opacity="0.8"/>
+
+  <!-- Dot grid decoration left -->
+  <g opacity="0.15">
+    <circle cx="40" cy="40" r="1.5" fill="#FF2D78"/>
+    <circle cx="55" cy="40" r="1.5" fill="#FF2D78"/>
+    <circle cx="70" cy="40" r="1.5" fill="#FF2D78"/>
+    <circle cx="40" cy="55" r="1.5" fill="#FF2D78"/>
+    <circle cx="55" cy="55" r="1.5" fill="#FF2D78"/>
+    <circle cx="70" cy="55" r="1.5" fill="#FF2D78"/>
+    <circle cx="40" cy="70" r="1.5" fill="#FF2D78"/>
+    <circle cx="55" cy="70" r="1.5" fill="#FF2D78"/>
+    <circle cx="70" cy="70" r="1.5" fill="#FF2D78"/>
+  </g>
+
+  <!-- Dot grid decoration right -->
+  <g opacity="0.15">
+    <circle cx="730" cy="40" r="1.5" fill="#58a6ff"/>
+    <circle cx="745" cy="40" r="1.5" fill="#58a6ff"/>
+    <circle cx="760" cy="40" r="1.5" fill="#58a6ff"/>
+    <circle cx="730" cy="55" r="1.5" fill="#58a6ff"/>
+    <circle cx="745" cy="55" r="1.5" fill="#58a6ff"/>
+    <circle cx="760" cy="55" r="1.5" fill="#58a6ff"/>
+    <circle cx="730" cy="70" r="1.5" fill="#58a6ff"/>
+    <circle cx="745" cy="70" r="1.5" fill="#58a6ff"/>
+    <circle cx="760" cy="70" r="1.5" fill="#58a6ff"/>
+  </g>
+
+  <!-- Main title -->
+  <text x="400" y="58" text-anchor="middle" font-family="'Courier New', monospace" font-size="42" font-weight="bold" fill="url(#textGrad)" filter="url(#glow)" letter-spacing="12">KXOS</text>
+
+  <!-- Subtitle -->
+  <text x="400" y="88" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#8b949e" letter-spacing="4">Frontend · Fullstack · UI/UX</text>
+
+  <!-- Blinking cursor animation -->
+  <rect x="558" y="74" width="10" height="2" fill="#FF2D78">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Scan line animation -->
+  <rect x="0" y="0" width="800" height="3" fill="#FF2D78" opacity="0.05" rx="0">
+    <animateTransform attributeName="transform" type="translate" from="0,0" to="0,120" dur="3s" repeatCount="indefinite"/>
+  </rect>
+</svg>

@@ -1,171 +1,150 @@
 <!-- ═══════════════════════════════════════════════════════════════
-     KXOS — GitHub Profile README
-     Repo: Kxos/Kxos  →  file: README.md
-     ═══════════════════════════════════════════════════════════════ -->
+     KXOS — GitHub Profile README  ·  repo: Kxos/Kxos
+     Palette: #04020e bg · #ff2d78 pink · #00f5ff cyan · #b44fff violet
+     Font feel: Orbitron + Share Tech Mono
+═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-```
-██╗  ██╗██╗  ██╗ ██████╗ ███████╗
-██║ ██╔╝╚██╗██╔╝██╔═══██╗██╔════╝
-█████╔╝  ╚███╔╝ ██║   ██║███████╗
-██╔═██╗  ██╔██╗ ██║   ██║╚════██║
-██║  ██╗██╔╝ ██╗╚██████╔╝███████║
-╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝
-```
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=3000&pause=1000&color=FF2D78&center=true&vCenter=true&width=500&lines=Frontend+%2F+Fullstack+Developer;TypeScript+%7C+React+%7C+Next.js+%7C+Spring+Boot;Building+things+that+matter.;%2F%2F+Always+shipping.)](https://git.io/typing-svg)
+<!-- HEADER SVG — synthwave sun + scanlines + titolo animato -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:04020e,50:ff2d7822,100:04020e&height=180&section=header&text=KXOS&fontSize=72&fontFamily=Orbitron&fontColor=ff2d78&fontAlignY=55&animation=fadeIn&stroke=ff2d78&strokeWidth=1&desc=Vito%20Iannone&descSize=16&descAlignY=80&descFontFamily=Share+Tech+Mono&descFontColor=00f5ff" width="100%" />
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-kxos.github.io-FF2D78?style=for-the-badge&logoColor=white)](https://kxos.github.io)
-[![GitHub](https://img.shields.io/badge/GitHub-Kxos-161b22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kxos)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&duration=2800&pause=1200&color=00F5FF&center=true&vCenter=true&width=580&lines=FE+Team+Lead+%40+DXC+Technology;React+·+Next.js+·+TypeScript+·+Spring+Boot;Costruisco+sistemi+scalabili+%26+UI+ad+alto+impatto.;%2F%2F+dal+backend+al+pixel+finale.)](https://git.io/typing-svg)
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-kxos.github.io-ff2d78?style=for-the-badge&logo=safari&logoColor=ff2d78&labelColor=04020e)](https://kxos.github.io)&nbsp;
+[![GitHub](https://img.shields.io/badge/GITHUB-Kxos-00f5ff?style=for-the-badge&logo=github&logoColor=00f5ff&labelColor=04020e)](https://github.com/Kxos)&nbsp;
+[![Location](https://img.shields.io/badge/BARI-ITALIA-b44fff?style=for-the-badge&logo=googlemaps&logoColor=b44fff&labelColor=04020e)](https://kxos.github.io)
 
 </div>
+
+<br/>
 
 ---
 
-<div align="center">
+<div align="center"><sub><code>// whoami</code></sub></div>
 
-## `< about me />`
-
-</div>
+<br/>
 
 ```ts
 const kxos = {
-  username:  "Kxos",
-  name:      "IannoneVito",
-  focus:     ["Frontend", "Fullstack", "UI/UX"],
-  stack:     ["TypeScript", "React", "Next.js", "Spring Boot"],
-  currently: "Building kxos.github.io — personal portfolio",
-  motto:     "// Ship fast. Iterate faster.",
+  name:      "Vito Iannone",
+  alias:     "Kxos",
+  location:  "Bari, Italia 🇮🇹",
+
+  role:      "FE Team Lead & Full Stack Dev @ DXC Technology",
+  since:     "Giu 2022 — Presente",
+
+  stack:     {
+    frontend:  ["React", "Next.js", "TypeScript", "JavaScript ES6+", "HTML5", "CSS3"],
+    backend:   ["Java", "Spring Boot", "REST API", "Microservizi", "PHP"],
+    database:  ["MySQL", "SQL Server", "PostgreSQL"],
+    tools:     ["GitHub", "GitLab", "Jira", "Scrum", "DevOps", "Code Review"],
+  },
+
+  focus:     ["Scalable Systems", "High-Impact UI", "Team Leadership"],
+  currently: "Building kxos.github.io — synthwave portfolio con arcade integrato",
+  motto:     "// dal backend al pixel finale.",
 };
 ```
 
----
-
-<div align="center">
-
-## `< stack />`
-
-</div>
-
-<div align="center">
-
-**Frontend**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-**Backend**
-
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-**Tools & DevOps**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
-</div>
+<br/>
 
 ---
 
-<div align="center">
-
-## `< stats />`
-
-</div>
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Kxos&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF2D78&icon_color=FF2D78&text_color=c9d1d9&ring_color=FF2D78" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kxos&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF2D78&text_color=c9d1d9&langs_count=6" />
+<div align="center"><sub><code>// stack</code></sub></div>
 
 <br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Kxos&theme=radical&hide_border=true&background=0d1117&ring=FF2D78&fire=FF2D78&currStreakLabel=FF2D78&sideLabels=c9d1d9&dates=8b949e&stroke=21262d)](https://git.io/streak-stats)
+<div align="center">
+
+**`[ FRONTEND ]`**
+
+![React](https://img.shields.io/badge/React-00f5ff?style=for-the-badge&logo=react&logoColor=04020e)
+![Next.js](https://img.shields.io/badge/Next.js-f0ecff?style=for-the-badge&logo=nextdotjs&logoColor=04020e)
+![TypeScript](https://img.shields.io/badge/TypeScript-00f5ff?style=for-the-badge&logo=typescript&logoColor=04020e)
+![JavaScript](https://img.shields.io/badge/JavaScript-ffd93d?style=for-the-badge&logo=javascript&logoColor=04020e)
+![HTML5](https://img.shields.io/badge/HTML5-ff2d78?style=for-the-badge&logo=html5&logoColor=04020e)
+![CSS3](https://img.shields.io/badge/CSS3-b44fff?style=for-the-badge&logo=css3&logoColor=04020e)
+
+**`[ BACKEND ]`**
+
+![Java](https://img.shields.io/badge/Java-ff2d78?style=for-the-badge&logo=openjdk&logoColor=04020e)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-ff2d78?style=for-the-badge&logo=springboot&logoColor=04020e)
+![PHP](https://img.shields.io/badge/PHP-b44fff?style=for-the-badge&logo=php&logoColor=04020e)
+
+**`[ DATABASE & DEVOPS ]`**
+
+![MySQL](https://img.shields.io/badge/MySQL-b44fff?style=for-the-badge&logo=mysql&logoColor=04020e)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-b44fff?style=for-the-badge&logo=postgresql&logoColor=04020e)
+![Git](https://img.shields.io/badge/Git-ff2d78?style=for-the-badge&logo=git&logoColor=04020e)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-00f5ff?style=for-the-badge&logo=githubactions&logoColor=04020e)
+![Jira](https://img.shields.io/badge/Jira-00f5ff?style=for-the-badge&logo=jira&logoColor=04020e)
 
 </div>
 
+<br/>
+
 ---
+
+<div align="center"><sub><code>// stats</code></sub></div>
+
+<br/>
 
 <div align="center">
 
-## `< contribution snake />`
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Kxos&show_icons=true&hide_border=true&bg_color=04020e&title_color=ff2d78&icon_color=00f5ff&text_color=9b93c8&ring_color=b44fff&include_all_commits=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kxos&layout=compact&hide_border=true&bg_color=04020e&title_color=ff2d78&text_color=9b93c8&langs_count=6" />
 
-<!-- Snake animation — generata automaticamente con GitHub Actions (vedi setup sotto) -->
+<br/><br/>
 
+[![GitHub Streak](https://streak-stats.demolab.com?user=Kxos&hide_border=true&background=04020e&ring=ff2d78&fire=b44fff&currStreakLabel=00f5ff&sideLabels=9b93c8&dates=4a4470&stroke=160f30&currStreakNum=f0ecff&sideNums=f0ecff)](https://git.io/streak-stats)
+
+</div>
+
+<br/>
+
+---
+
+<div align="center"><sub><code>// contribution snake</code></sub></div>
+
+<br/>
+
+<div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)"
     srcset="https://raw.githubusercontent.com/Kxos/Kxos/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)"
     srcset="https://raw.githubusercontent.com/Kxos/Kxos/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Kxos/Kxos/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Kxos/Kxos/output/github-contribution-grid-snake-dark.svg" />
 </picture>
+</div>
+
+<br/>
+
+---
+
+<div align="center"><sub><code>// pinned</code></sub></div>
+
+<br/>
+
+<div align="center">
+
+[![kxos.github.io](https://github-readme-stats.vercel.app/api/pin/?username=Kxos&repo=kxos.github.io&hide_border=true&bg_color=04020e&title_color=ff2d78&icon_color=00f5ff&text_color=9b93c8&border_color=160f30)](https://github.com/Kxos/kxos.github.io)
 
 </div>
+
+<br/>
 
 ---
 
 <div align="center">
 
-## `< pinned />`
+![Profile Views](https://komarev.com/ghpvc/?username=Kxos&style=for-the-badge&color=ff2d78&labelColor=04020e&label=PROFILE+VIEWS)
 
-[![kxos.github.io](https://github-readme-stats.vercel.app/api/pin/?username=Kxos&repo=kxos.github.io&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF2D78&icon_color=FF2D78&text_color=c9d1d9)](https://github.com/Kxos/kxos.github.io)
-
-</div>
-
----
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=Kxos&style=for-the-badge&color=FF2D78&label=PROFILE+VIEWS)
-
-*`// thanks for stopping by`*
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:04020e,50:b44fff22,100:04020e&height=100&section=footer&reversal=false" width="100%" />
 
 </div>
-
-<!--------------------------------------------------------------------------
-  🐍 SNAKE ANIMATION — SETUP (da fare una volta sola)
-  ---------------------------------------------------------------------------
-  1. Crea la cartella: .github/workflows/
-  2. Crea il file:     .github/workflows/snake.yml
-  3. Incolla questo contenuto:
-
-  name: Generate Snake
-
-  on:
-    schedule:
-      - cron: "0 0 * * *"   # ogni giorno a mezzanotte
-    workflow_dispatch:
-
-  jobs:
-    generate:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: Platane/snk/svg-only@v3
-          with:
-            github_user_name: Kxos
-            outputs: |
-              dist/github-contribution-grid-snake.svg
-              dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-        - uses: crazy-max/ghaction-github-pages@v3
-          with:
-            target_branch: output
-            build_dir: dist
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  4. Vai su Settings → Actions → General → Workflow permissions
-     → seleziona "Read and write permissions" → Save
-  5. Esegui il workflow manualmente la prima volta da Actions → Run workflow
-  -------------------------------------------------------------------------->
