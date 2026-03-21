@@ -59,14 +59,14 @@
     <text x="160" y="212" font-family="'Courier New', monospace" font-size="13" fill="#9b93c8">Scalable Systems  <tspan fill="#4a4470">·</tspan>  High-Impact UI  <tspan fill="#4a4470">·</tspan>  Team Leadership</text>
 
     <!-- currently -->
-    <text x="30" y="240" font-family="'Courier New', monospace" font-size="11" fill="#4a4470" letter-spacing="2">NOW</text>
+    <text x="30" y="240" font-family="'Courier New', monospace" font-size="11" fill="#4a4470" letter-spacing="2">PORTFOLIO</text>
     <text x="160" y="240" font-family="'Courier New', monospace" font-size="12" fill="#b44fff">kxos.github.io — synthwave portfolio con arcade integrato</text>
 
     <!-- Divider line before motto -->
     <line x1="30" y1="260" x2="770" y2="260" stroke="#1a1030" stroke-width="1"/>
 
     <!-- motto -->
-    <text x="400" y="283" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#FF2D78" letter-spacing="3" opacity="0.7">// dal backend al pixel finale.</text>
+    <text x="400" y="283" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#FF2D78" letter-spacing="3" opacity="0.7">// Dal progetto alla realizzazione.</text>
 
     <!-- Blinking cursor after motto -->
     <rect x="595" y="273" width="8" height="2" fill="#FF2D78" opacity="0.7">

@@ -6,15 +6,15 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&duration=2800&pause=1200&color=00F5FF&center=true&vCenter=true&width=580&lines=FE+Team+Lead+%40+DXC+Technology;React+~+Next.js+~+TypeScript+~+Spring+Boot;Costruisco+sistemi+scalabili+%26+UI+ad+alto+impatto.;%2F%2F+dal+backend+al+pixel+finale.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&duration=2800&pause=1200&color=00F5FF&center=true&vCenter=true&width=580&lines=React+~+Next.js+~+TypeScript+~+Spring+Boot;Costruisco+sistemi+scalabili+%26+UI+ad+alto+impatto.;%2F%2F+Dal+progetto+alla+realizzazione.)](https://git.io/typing-svg)
 
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-kxos.github.io-ff2d78?style=for-the-badge&logo=safari&logoColor=ff2d78&labelColor=04020e)](https://kxos.github.io)&nbsp;
 [![GitHub](https://img.shields.io/badge/GITHUB-Kxos-00f5ff?style=for-the-badge&logo=github&logoColor=00f5ff&labelColor=04020e)](https://github.com/Kxos)&nbsp;
-[![Location](https://img.shields.io/badge/BARI-ITALIA-b44fff?style=for-the-badge&logo=googlemaps&logoColor=b44fff&labelColor=04020e)](https://kxos.github.io)
-<br/>
+[![Location](https://img.shields.io/badge/BARI-ITALIA-b44fff?style=for-the-badge&logo=googlemaps&logoColor=b44fff&labelColor=04020e)](https://kxos.github.io)&nbsp;
 ![Profile Views](https://komarev.com/ghpvc/?username=Kxos&style=for-the-badge&color=ff2d78&labelColor=04020e&label=PROFILE+VIEWS)
+<br/>
 
 </div>
 
