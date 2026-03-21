@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="KXOS"/>
+[![header](./assets/header.svg)](https://github.com/Kxos)
 
 <br/>
 
@@ -19,7 +19,9 @@
 </div>
 
 <div align="center">
-<img src="./assets/label-pinned.svg" width="100%" alt="pinned"/>
+
+[![pinned](./assets/label-pinned.svg)](https://github.com/Kxos)
+
 </div>
 
 <div align="center">
@@ -31,19 +33,25 @@
 <br/>
 
 <div align="center">
-<img src="./assets/whoami.svg" width="100%" alt="whoami"/>
+
+[![whoami](./assets/whoami.svg)](https://github.com/Kxos)
+
 </div>
 
 <br/>
 
 <div align="center">
-<img src="./assets/stack.svg" width="100%" alt="stack"/>
+
+[![stack](./assets/stack.svg)](https://github.com/Kxos)
+
 </div>
 
 <br/>
 
 <div align="center">
-<img src="./assets/label-stats.svg" width="100%" alt="stats"/>
+
+[![stats](./assets/label-stats.svg)](https://github.com/Kxos)
+
 </div>
 
 <br/>
@@ -60,5 +68,7 @@
 </div>
 
 <div align="center">
-<img src="./assets/footer.svg" width="100%" alt="footer"/>
+
+[![footer](./assets/footer.svg)](https://github.com/Kxos)
+
 </div>
