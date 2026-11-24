@@ -1,0 +1,11 @@
+<svg width="258" height="36" viewBox="0 0 258 36" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Portfolio: kxos.github.io">
+  <defs><filter id="soft" x="-5%" y="-50%" width="110%" height="200%"><feGaussianBlur stdDeviation="1.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  
+  <rect x=".75" y=".75" width="255.5" height="33.5" rx="6" fill="#0b0620" stroke="#ff2d78" stroke-width="1.5"/>
+  <path d="M.75 6.75a6 6 0 0 1 6-6H34V34.25H6.75a6 6 0 0 1-6-6z" fill="#ff2d78"/>
+  <g fill="none" stroke="#0b0620" stroke-width="1.6"><circle cx="17" cy="17" r="8"/><ellipse cx="17" cy="17" rx="3.6" ry="8"/><path d="M9 17h16M10.5 13h13M10.5 21h13"/></g>
+  <g font-family="'Courier New',Courier,monospace" font-weight="bold">
+    <text x="46" y="22" font-size="10" letter-spacing="1.6" fill="#f0ecff" fill-opacity=".6">PORTFOLIO</text>
+    <text x="124.4" y="22.5" font-size="13" letter-spacing=".6" fill="#ff2d78" filter="url(#soft)">kxos.github.io</text>
+  </g>
+</svg>

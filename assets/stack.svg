@@ -1,122 +1,121 @@
-<svg width="800" height="330" viewBox="0 0 800 330" xmlns="http://www.w3.org/2000/svg">
+<svg width="840" height="604" viewBox="0 0 840 604" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="// TECH STACK">
+  <title>// TECH STACK: FRONT END - React 17→19, Next.js 14→16, Angular 21, TypeScript, Tailwind CSS 4, Bootstrap Italia, next-intl, Transloco; TESTING &amp; QUALITY - Vitest, Jest, Testing Library, JUnit 5, JaCoCo, ESLint, axe-core; BACK END - Java 11→25, Spring Boot 2→4, Apache Camel, RabbitMQ, JPA, Oracle, PostgreSQL; APIS &amp; INTEGRATION - GraphQL, Apollo Client, OpenAPI contract-first, openapi-generator, BFF; DELIVERY &amp; DEVOPS - Docker, Kubernetes, Helm, Jenkins, SonarQube, GitLab, GitHub Actions; IDENTITY &amp; ACCESS - OIDC / OAuth2, Keycloak, next-auth, angular-oauth2-oidc, SPID, CIE; WAYS OF WORKING - Git (rebase, PR), Code review, Scrum, Claude Code, ADR · C4</title>
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#04020e"/>
-      <stop offset="100%" stop-color="#0d0820"/>
-    </linearGradient>
-    <linearGradient id="accentL" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#00f5ff"/>
-      <stop offset="100%" stop-color="#b44fff"/>
-    </linearGradient>
-    <linearGradient id="accentR" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#b44fff"/>
-      <stop offset="100%" stop-color="#FF2D78"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="card">
-      <rect width="800" height="330" rx="12"/>
-    </clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04020e"/><stop offset=".5" stop-color="#0d0820"/><stop offset="1" stop-color="#04020e"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff2d78"/><stop offset=".5" stop-color="#b44fff"/><stop offset="1" stop-color="#00f5ff"/></linearGradient>
+    <linearGradient id="sep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff2d78" stop-opacity="0"/><stop offset=".5" stop-color="#b44fff" stop-opacity=".35"/><stop offset="1" stop-color="#00f5ff" stop-opacity="0"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="1.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-
-  <rect width="800" height="330" fill="url(#bg)" rx="12"/>
-
-  <g clip-path="url(#card)">
-    <rect x="0" y="0" width="3" height="330" fill="url(#accentL)"/>
-    <rect x="797" y="0" width="3" height="330" fill="url(#accentR)"/>
-
-    <!-- Section label -->
-    <text x="30" y="36" font-family="'Courier New', monospace" font-size="11" fill="#00f5ff" letter-spacing="3" opacity="0.9">// STACK</text>
-    <line x1="15" y1="51" x2="780" y2="51" stroke="#1a1030" stroke-width="1"/>
-
-    <!-- FRONTEND row label -->
-    <text x="30" y="68" font-family="'Courier New', monospace" font-size="10" fill="#4a4470" letter-spacing="3">FRONTEND</text>
-    <line x1="105" y1="63" x2="770" y2="63" stroke="#0d0820" stroke-width="1"/>
-
-    <!-- Frontend pills -->
-    <!-- React -->
-    <rect x="30" y="76" width="90" height="28" rx="6" fill="#001e2e" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.6"/>
-    <text x="75" y="95" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#00f5ff">React</text>
-
-    <!-- Next.js -->
-    <rect x="130" y="76" width="90" height="28" rx="6" fill="#0d0d1a" stroke="#f0ecff" stroke-width="0.8" stroke-opacity="0.4"/>
-    <text x="175" y="95" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#f0ecff">Next.js</text>
-
-    <!-- TypeScript -->
-    <rect x="230" y="76" width="110" height="28" rx="6" fill="#001525" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.6"/>
-    <text x="285" y="95" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#00f5ff">TypeScript</text>
-
-    <!-- JavaScript -->
-    <rect x="350" y="76" width="110" height="28" rx="6" fill="#1e1a00" stroke="#ffd93d" stroke-width="0.8" stroke-opacity="0.6"/>
-    <text x="405" y="95" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#ffd93d">JavaScript</text>
-
-    <!-- HTML5 -->
-    <rect x="470" y="76" width="80" height="28" rx="6" fill="#1e0510" stroke="#FF2D78" stroke-width="0.8" stroke-opacity="0.6"/>
-    <text x="510" y="95" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#FF2D78">HTML5</text>
-
-    <!-- CSS3 -->
-    <rect x="560" y="76" width="70" height="28" rx="6" fill="#100820" stroke="#b44fff" stroke-width="0.8" stroke-opacity="0.6"/>
-    <text x="595" y="95" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#b44fff">CSS3</text>
-
-    <!-- BACKEND row label -->
-    <text x="30" y="138" font-family="'Courier New', monospace" font-size="10" fill="#4a4470" letter-spacing="3">BACKEND</text>
-    <line x1="110" y1="133" x2="770" y2="133" stroke="#0d0820" stroke-width="1"/>
-
-    <!-- Java -->
-    <rect x="30" y="146" width="80" height="28" rx="6" fill="#1e1a00" stroke="#ffd93d" stroke-width="0.8" stroke-opacity="0.6"/>
-    <text x="70" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#ffd93d">Java</text>
-
-    <!-- Spring Boot -->
-    <rect x="120" y="146" width="120" height="28" rx="6" fill="#001525" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.6"/>
-    <text x="180" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#00f5ff">Spring Boot</text>
-
-    <!-- PHP -->
-    <rect x="250" y="146" width="70" height="28" rx="6" fill="#100820" stroke="#b44fff" stroke-width="0.8" stroke-opacity="0.6"/>
-    <text x="285" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#b44fff">PHP</text>
-
-    <!-- REST API -->
-    <rect x="330" y="146" width="95" height="28" rx="6" fill="#1e0510" stroke="#FF2D78" stroke-width="0.8" stroke-opacity="0.4"/>
-    <text x="377" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#FF2D78">REST API</text>
-
-    <!-- DATABASE row label -->
-    <text x="30" y="208" font-family="'Courier New', monospace" font-size="10" fill="#4a4470" letter-spacing="3">DATABASE</text>
-    <line x1="115" y1="203" x2="770" y2="203" stroke="#0d0820" stroke-width="1"/>
-
-    <!-- MySQL -->
-    <rect x="30" y="216" width="80" height="28" rx="6" fill="#100820" stroke="#b44fff" stroke-width="0.8" stroke-opacity="0.6"/>
-    <text x="70" y="235" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#b44fff">MySQL</text>
-
-    <!-- PostgreSQL -->
-    <rect x="120" y="216" width="110" height="28" rx="6" fill="#1e1a00" stroke="#ffd93d" stroke-width="0.8" stroke-opacity="0.6"/>
-    <text x="175" y="235" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#ffd93d">PostgreSQL</text>
-
-    <!-- SQL Server -->
-    <rect x="240" y="216" width="105" height="28" rx="6" fill="#001525" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.6"/>
-    <text x="292" y="235" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#00f5ff">SQL Server</text>
-
-    <!-- DEVOPS row label -->
-    <text x="30" y="278" font-family="'Courier New', monospace" font-size="10" fill="#4a4470" letter-spacing="3">DEVOPS &amp; TOOLS</text>
-    <line x1="170" y1="273" x2="770" y2="273" stroke="#0d0820" stroke-width="1"/>
-
-    <!-- Git -->
-    <rect x="30" y="286" width="60" height="28" rx="6" fill="#1e0510" stroke="#FF2D78" stroke-width="0.8" stroke-opacity="0.5"/>
-    <text x="60" y="305" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#FF2D78">Git</text>
-
-    <!-- GitHub Actions -->
-    <rect x="100" y="286" width="150" height="28" rx="6" fill="#001e2e" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.5"/>
-    <text x="175" y="305" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#00f5ff">GitHub Actions</text>
-
-    <!-- Jira -->
-    <rect x="260" y="286" width="65" height="28" rx="6" fill="#100820" stroke="#b44fff" stroke-width="0.8" stroke-opacity="0.6"/>
-    <text x="292" y="305" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#b44fff">Jira</text>
-
-    <!-- Scrum -->
-    <rect x="335" y="286" width="75" height="28" rx="6" fill="#1e1a00" stroke="#ffd93d" stroke-width="0.8" stroke-opacity="0.6"/>
-    <text x="372" y="305" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#ffd93d">Scrum</text>
-
+  <rect x=".5" y=".5" width="839" height="603" rx="12" fill="url(#bg)" stroke="url(#edge)" stroke-opacity=".55"/>
+  <polyline points="14,30 14,14 30,14" fill="none" stroke="#ff2d78" stroke-width="2" filter="url(#soft)"/>
+  <polyline points="810,14 826,14 826,30" fill="none" stroke="#00f5ff" stroke-width="2" filter="url(#soft)"/>
+  <polyline points="14,574 14,590 30,590" fill="none" stroke="#ff2d78" stroke-width="2" filter="url(#soft)"/>
+  <polyline points="810,590 826,590 826,574" fill="none" stroke="#00f5ff" stroke-width="2" filter="url(#soft)"/>
+  <g font-family="'Share Tech Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace">
+    <text x="420.0" y="44" text-anchor="middle" font-size="16" letter-spacing="5" fill="#ff2d78" filter="url(#glow)">// TECH STACK</text>
+        <text x="28" y="94" font-size="11" letter-spacing="2" fill="#ff2d78" filter="url(#soft)"><tspan font-size="14" font-weight="bold">01</tspan><tspan dx="8">FRONT END</tspan></text>
+    <rect x="228.0" y="78" width="103.4" height="24" rx="3" fill="#ff2d78" fill-opacity="0.07" stroke="#ff2d78" stroke-opacity="0.45"/>
+    <text x="279.7" y="94" text-anchor="middle" font-size="12" fill="#f0ecff">React 17→19</text>
+    <rect x="339.4" y="78" width="118.2" height="24" rx="3" fill="#ff2d78" fill-opacity="0.07" stroke="#ff2d78" stroke-opacity="0.45"/>
+    <text x="398.5" y="94" text-anchor="middle" font-size="12" fill="#f0ecff">Next.js 14→16</text>
+    <rect x="465.6" y="78" width="96.0" height="24" rx="3" fill="#ff2d78" fill-opacity="0.07" stroke="#ff2d78" stroke-opacity="0.45"/>
+    <text x="513.6" y="94" text-anchor="middle" font-size="12" fill="#f0ecff">Angular 21</text>
+    <rect x="569.6" y="78" width="96.0" height="24" rx="3" fill="#ff2d78" fill-opacity="0.07" stroke="#ff2d78" stroke-opacity="0.45"/>
+    <text x="617.6" y="94" text-anchor="middle" font-size="12" fill="#f0ecff">TypeScript</text>
+    <rect x="673.6" y="78" width="125.6" height="24" rx="3" fill="#ff2d78" fill-opacity="0.07" stroke="#ff2d78" stroke-opacity="0.45"/>
+    <text x="736.4" y="94" text-anchor="middle" font-size="12" fill="#f0ecff">Tailwind CSS 4</text>
+    <rect x="228.0" y="110" width="140.4" height="24" rx="3" fill="#ff2d78" fill-opacity="0.07" stroke="#ff2d78" stroke-opacity="0.45"/>
+    <text x="298.2" y="126" text-anchor="middle" font-size="12" fill="#f0ecff">Bootstrap Italia</text>
+    <rect x="376.4" y="110" width="88.6" height="24" rx="3" fill="#ff2d78" fill-opacity="0.07" stroke="#ff2d78" stroke-opacity="0.45"/>
+    <text x="420.7" y="126" text-anchor="middle" font-size="12" fill="#f0ecff">next-intl</text>
+    <rect x="473.0" y="110" width="88.6" height="24" rx="3" fill="#ff2d78" fill-opacity="0.07" stroke="#ff2d78" stroke-opacity="0.45"/>
+    <text x="517.3" y="126" text-anchor="middle" font-size="12" fill="#f0ecff">Transloco</text>
+    <line x1="28" y1="145" x2="812" y2="145" stroke="url(#sep)" stroke-width="1"/>
+    <text x="28" y="172" font-size="11" letter-spacing="2" fill="#ff2d78" filter="url(#soft)"><tspan font-size="14" font-weight="bold">02</tspan><tspan dx="8">TESTING &amp; QUALITY</tspan></text>
+    <rect x="228.0" y="156" width="66.4" height="24" rx="3" fill="#ff2d78" fill-opacity="0.07" stroke="#ff2d78" stroke-opacity="0.45"/>
+    <text x="261.2" y="172" text-anchor="middle" font-size="12" fill="#f0ecff">Vitest</text>
+    <rect x="302.4" y="156" width="51.6" height="24" rx="3" fill="#ff2d78" fill-opacity="0.07" stroke="#ff2d78" stroke-opacity="0.45"/>
+    <text x="328.2" y="172" text-anchor="middle" font-size="12" fill="#f0ecff">Jest</text>
+    <rect x="362.0" y="156" width="133.0" height="24" rx="3" fill="#ff2d78" fill-opacity="0.07" stroke="#ff2d78" stroke-opacity="0.45"/>
+    <text x="428.5" y="172" text-anchor="middle" font-size="12" fill="#f0ecff">Testing Library</text>
+    <rect x="503.0" y="156" width="73.8" height="24" rx="3" fill="#ff2d78" fill-opacity="0.07" stroke="#ff2d78" stroke-opacity="0.45"/>
+    <text x="539.9" y="172" text-anchor="middle" font-size="12" fill="#f0ecff">JUnit 5</text>
+    <rect x="584.8" y="156" width="66.4" height="24" rx="3" fill="#ff2d78" fill-opacity="0.07" stroke="#ff2d78" stroke-opacity="0.45"/>
+    <text x="618.0" y="172" text-anchor="middle" font-size="12" fill="#f0ecff">JaCoCo</text>
+    <rect x="659.2" y="156" width="66.4" height="24" rx="3" fill="#ff2d78" fill-opacity="0.07" stroke="#ff2d78" stroke-opacity="0.45"/>
+    <text x="692.4" y="172" text-anchor="middle" font-size="12" fill="#f0ecff">ESLint</text>
+    <rect x="228.0" y="188" width="81.2" height="24" rx="3" fill="#ff2d78" fill-opacity="0.07" stroke="#ff2d78" stroke-opacity="0.45"/>
+    <text x="268.6" y="204" text-anchor="middle" font-size="12" fill="#f0ecff">axe-core</text>
+    <line x1="28" y1="223" x2="812" y2="223" stroke="url(#sep)" stroke-width="1"/>
+    <text x="28" y="250" font-size="11" letter-spacing="2" fill="#ffd93d" filter="url(#soft)"><tspan font-size="14" font-weight="bold">03</tspan><tspan dx="8">BACK END</tspan></text>
+    <rect x="228.0" y="234" width="96.0" height="24" rx="3" fill="#ffd93d" fill-opacity="0.07" stroke="#ffd93d" stroke-opacity="0.45"/>
+    <text x="276.0" y="250" text-anchor="middle" font-size="12" fill="#f0ecff">Java 11→25</text>
+    <rect x="332.0" y="234" width="133.0" height="24" rx="3" fill="#ffd93d" fill-opacity="0.07" stroke="#ffd93d" stroke-opacity="0.45"/>
+    <text x="398.5" y="250" text-anchor="middle" font-size="12" fill="#f0ecff">Spring Boot 2→4</text>
+    <rect x="473.0" y="234" width="110.8" height="24" rx="3" fill="#ffd93d" fill-opacity="0.07" stroke="#ffd93d" stroke-opacity="0.45"/>
+    <text x="528.4" y="250" text-anchor="middle" font-size="12" fill="#f0ecff">Apache Camel</text>
+    <rect x="591.8" y="234" width="81.2" height="24" rx="3" fill="#ffd93d" fill-opacity="0.07" stroke="#ffd93d" stroke-opacity="0.45"/>
+    <text x="632.4" y="250" text-anchor="middle" font-size="12" fill="#f0ecff">RabbitMQ</text>
+    <rect x="681.0" y="234" width="44.2" height="24" rx="3" fill="#ffd93d" fill-opacity="0.07" stroke="#ffd93d" stroke-opacity="0.45"/>
+    <text x="703.1" y="250" text-anchor="middle" font-size="12" fill="#f0ecff">JPA</text>
+    <rect x="733.2" y="234" width="66.4" height="24" rx="3" fill="#ffd93d" fill-opacity="0.07" stroke="#ffd93d" stroke-opacity="0.45"/>
+    <text x="766.4" y="250" text-anchor="middle" font-size="12" fill="#f0ecff">Oracle</text>
+    <rect x="228.0" y="266" width="96.0" height="24" rx="3" fill="#ffd93d" fill-opacity="0.07" stroke="#ffd93d" stroke-opacity="0.45"/>
+    <text x="276.0" y="282" text-anchor="middle" font-size="12" fill="#f0ecff">PostgreSQL</text>
+    <line x1="28" y1="301" x2="812" y2="301" stroke="url(#sep)" stroke-width="1"/>
+    <text x="28" y="328" font-size="11" letter-spacing="2" fill="#00f5ff" filter="url(#soft)"><tspan font-size="14" font-weight="bold">04</tspan><tspan dx="8">APIS &amp; INTEGRATION</tspan></text>
+    <rect x="228.0" y="312" width="73.8" height="24" rx="3" fill="#00f5ff" fill-opacity="0.07" stroke="#00f5ff" stroke-opacity="0.45"/>
+    <text x="264.9" y="328" text-anchor="middle" font-size="12" fill="#f0ecff">GraphQL</text>
+    <rect x="309.8" y="312" width="118.2" height="24" rx="3" fill="#00f5ff" fill-opacity="0.07" stroke="#00f5ff" stroke-opacity="0.45"/>
+    <text x="368.9" y="328" text-anchor="middle" font-size="12" fill="#f0ecff">Apollo Client</text>
+    <rect x="436.0" y="312" width="184.8" height="24" rx="3" fill="#00f5ff" fill-opacity="0.07" stroke="#00f5ff" stroke-opacity="0.45"/>
+    <text x="528.4" y="328" text-anchor="middle" font-size="12" fill="#f0ecff">OpenAPI contract-first</text>
+    <rect x="628.8" y="312" width="147.8" height="24" rx="3" fill="#00f5ff" fill-opacity="0.07" stroke="#00f5ff" stroke-opacity="0.45"/>
+    <text x="702.7" y="328" text-anchor="middle" font-size="12" fill="#f0ecff">openapi-generator</text>
+    <rect x="228.0" y="344" width="44.2" height="24" rx="3" fill="#00f5ff" fill-opacity="0.07" stroke="#00f5ff" stroke-opacity="0.45"/>
+    <text x="250.1" y="360" text-anchor="middle" font-size="12" fill="#f0ecff">BFF</text>
+    <line x1="28" y1="379" x2="812" y2="379" stroke="url(#sep)" stroke-width="1"/>
+    <text x="28" y="406" font-size="11" letter-spacing="2" fill="#00f5ff" filter="url(#soft)"><tspan font-size="14" font-weight="bold">05</tspan><tspan dx="8">DELIVERY &amp; DEVOPS</tspan></text>
+    <rect x="228.0" y="390" width="66.4" height="24" rx="3" fill="#00f5ff" fill-opacity="0.07" stroke="#00f5ff" stroke-opacity="0.45"/>
+    <text x="261.2" y="406" text-anchor="middle" font-size="12" fill="#f0ecff">Docker</text>
+    <rect x="302.4" y="390" width="96.0" height="24" rx="3" fill="#00f5ff" fill-opacity="0.07" stroke="#00f5ff" stroke-opacity="0.45"/>
+    <text x="350.4" y="406" text-anchor="middle" font-size="12" fill="#f0ecff">Kubernetes</text>
+    <rect x="406.4" y="390" width="51.6" height="24" rx="3" fill="#00f5ff" fill-opacity="0.07" stroke="#00f5ff" stroke-opacity="0.45"/>
+    <text x="432.2" y="406" text-anchor="middle" font-size="12" fill="#f0ecff">Helm</text>
+    <rect x="466.0" y="390" width="73.8" height="24" rx="3" fill="#00f5ff" fill-opacity="0.07" stroke="#00f5ff" stroke-opacity="0.45"/>
+    <text x="502.9" y="406" text-anchor="middle" font-size="12" fill="#f0ecff">Jenkins</text>
+    <rect x="547.8" y="390" width="88.6" height="24" rx="3" fill="#00f5ff" fill-opacity="0.07" stroke="#00f5ff" stroke-opacity="0.45"/>
+    <text x="592.1" y="406" text-anchor="middle" font-size="12" fill="#f0ecff">SonarQube</text>
+    <rect x="644.4" y="390" width="66.4" height="24" rx="3" fill="#00f5ff" fill-opacity="0.07" stroke="#00f5ff" stroke-opacity="0.45"/>
+    <text x="677.6" y="406" text-anchor="middle" font-size="12" fill="#f0ecff">GitLab</text>
+    <rect x="228.0" y="422" width="125.6" height="24" rx="3" fill="#00f5ff" fill-opacity="0.07" stroke="#00f5ff" stroke-opacity="0.45"/>
+    <text x="290.8" y="438" text-anchor="middle" font-size="12" fill="#f0ecff">GitHub Actions</text>
+    <line x1="28" y1="457" x2="812" y2="457" stroke="url(#sep)" stroke-width="1"/>
+    <text x="28" y="484" font-size="11" letter-spacing="2" fill="#b44fff" filter="url(#soft)"><tspan font-size="14" font-weight="bold">06</tspan><tspan dx="8">IDENTITY &amp; ACCESS</tspan></text>
+    <rect x="228.0" y="468" width="118.2" height="24" rx="3" fill="#b44fff" fill-opacity="0.07" stroke="#b44fff" stroke-opacity="0.45"/>
+    <text x="287.1" y="484" text-anchor="middle" font-size="12" fill="#f0ecff">OIDC / OAuth2</text>
+    <rect x="354.2" y="468" width="81.2" height="24" rx="3" fill="#b44fff" fill-opacity="0.07" stroke="#b44fff" stroke-opacity="0.45"/>
+    <text x="394.8" y="484" text-anchor="middle" font-size="12" fill="#f0ecff">Keycloak</text>
+    <rect x="443.4" y="468" width="88.6" height="24" rx="3" fill="#b44fff" fill-opacity="0.07" stroke="#b44fff" stroke-opacity="0.45"/>
+    <text x="487.7" y="484" text-anchor="middle" font-size="12" fill="#f0ecff">next-auth</text>
+    <rect x="540.0" y="468" width="162.6" height="24" rx="3" fill="#b44fff" fill-opacity="0.07" stroke="#b44fff" stroke-opacity="0.45"/>
+    <text x="621.3" y="484" text-anchor="middle" font-size="12" fill="#f0ecff">angular-oauth2-oidc</text>
+    <rect x="710.6" y="468" width="51.6" height="24" rx="3" fill="#b44fff" fill-opacity="0.07" stroke="#b44fff" stroke-opacity="0.45"/>
+    <text x="736.4" y="484" text-anchor="middle" font-size="12" fill="#f0ecff">SPID</text>
+    <rect x="228.0" y="500" width="44.2" height="24" rx="3" fill="#b44fff" fill-opacity="0.07" stroke="#b44fff" stroke-opacity="0.45"/>
+    <text x="250.1" y="516" text-anchor="middle" font-size="12" fill="#f0ecff">CIE</text>
+    <line x1="28" y1="535" x2="812" y2="535" stroke="url(#sep)" stroke-width="1"/>
+    <text x="28" y="562" font-size="11" letter-spacing="2" fill="#b44fff" filter="url(#soft)"><tspan font-size="14" font-weight="bold">07</tspan><tspan dx="8">WAYS OF WORKING</tspan></text>
+    <rect x="228.0" y="546" width="140.4" height="24" rx="3" fill="#b44fff" fill-opacity="0.07" stroke="#b44fff" stroke-opacity="0.45"/>
+    <text x="298.2" y="562" text-anchor="middle" font-size="12" fill="#f0ecff">Git (rebase, PR)</text>
+    <rect x="376.4" y="546" width="103.4" height="24" rx="3" fill="#b44fff" fill-opacity="0.07" stroke="#b44fff" stroke-opacity="0.45"/>
+    <text x="428.1" y="562" text-anchor="middle" font-size="12" fill="#f0ecff">Code review</text>
+    <rect x="487.8" y="546" width="59.0" height="24" rx="3" fill="#b44fff" fill-opacity="0.07" stroke="#b44fff" stroke-opacity="0.45"/>
+    <text x="517.3" y="562" text-anchor="middle" font-size="12" fill="#f0ecff">Scrum</text>
+    <rect x="554.8" y="546" width="103.4" height="24" rx="3" fill="#b44fff" fill-opacity="0.07" stroke="#b44fff" stroke-opacity="0.45"/>
+    <text x="606.5" y="562" text-anchor="middle" font-size="12" fill="#f0ecff">Claude Code</text>
+    <rect x="666.2" y="546" width="81.2" height="24" rx="3" fill="#b44fff" fill-opacity="0.07" stroke="#b44fff" stroke-opacity="0.45"/>
+    <text x="706.8" y="562" text-anchor="middle" font-size="12" fill="#f0ecff">ADR · C4</text>
   </g>
-
-  <rect width="800" height="330" fill="none" stroke="#1a1030" stroke-width="1" rx="12"/>
 </svg>
